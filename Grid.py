@@ -20,14 +20,14 @@ for r in grid:
     print(r)
 
 dig = py.mixer.Sound("C:\\Users\\08Solec\\PreDP2-AntoniP\\GameProject\\Villager_deny1.oga")
-char = py.image.load("C:\\Users\\08Solec\\Desktop\\MyGame\\MyGame1\\Image2.png")
+char = py.image.load("C:\\Users\\08Solec\\PreDP2-AntoniP\\MyGame\\MyGame1\\Image2.png")
 char = py.transform.scale(char, (60, 60))
-pudzian = py.image.load("C:\\Users\\08Solec\\Desktop\\MyGame\\MyGame1\\pudzian.png")
+pudzian = py.image.load("C:\\Users\\08Solec\\PreDP2-AntoniP\\MyGame\\MyGame1\\pudzian.png")
 pudzian = py.transform.scale(pudzian, (60,60))
-bg = py.image.load("C:\\Users\\08Solec\\Desktop\\MyGame\\MyGame1\\rikitiki.png")
+bg = py.image.load("C:\\Users\\08Solec\\PreDP2-AntoniP\\MyGame\\MyGame1\\rikitiki.png")
 bg = py.transform.scale(bg, (screen_w, screen_h))
 coin_sound = py.mixer.Sound("C:\\Users\\08Solec\\PreDP2-AntoniP\\GameProject\\Mario_Coin.ogg")
-coin_image = py.image.load("C:\\Users\\08Solec\\PreDP2-AntoniP\\GameProject\\coin.png")
+coin_image = py.image.load("C:\\Users\\08Solec\\PreDP2-AntoniP\\MyGame\\MyGame1\\coin.png")
 coin_image = py.transform.scale(coin_image, (60, 60))
 
 p1 = Player(5, 5, 50, 50, char)
