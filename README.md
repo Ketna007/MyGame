@@ -1,1 +1,1 @@
-# MyGame1
+# MyGame
